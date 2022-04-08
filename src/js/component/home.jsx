@@ -2,6 +2,7 @@ import React from "react";
 
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
+import Welcome from "./welcome.jsx";
 
 //create your first component
 const Home = () => {
@@ -19,6 +20,11 @@ const Home = () => {
 				<a href="http://www.4geeksacademy.com">4Geeks Academy</a>, with
 				love!
 			</p>
+
+			<Welcome name="Jack" lastname="Baso" />
+			<Welcome name="Jose" />
+			<Welcome name="Mina" />
+			<Welcome name="Karina" />
 		</div>
 	);
 };

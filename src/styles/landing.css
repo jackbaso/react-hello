@@ -1,0 +1,10 @@
+.cards-position {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.carousel-inner img {
+    height: 400px;
+}
