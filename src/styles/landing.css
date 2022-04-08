@@ -3,7 +3,10 @@
     flex-direction: row;
     justify-content: space-between;
     padding-top: 20px;
+    margin: 10px 40px;
+    
 }
+
 
 .carousel-inner img {
     height: 400px;
